@@ -7,8 +7,8 @@ the game is a basic memory game where you have to match 2 cards, while all of th
 # Technologies
 
 # client :
-built with Angular 2.0 using Material-UI
+built with Angular using Material-UI
 
 # backend :
 a proxy built with Node.js communicating with Dog API (https://dog.ceo/dog-api).
-the server saves the images and data in MySql Local DB
+the server saves the images and data in Document Local DB
