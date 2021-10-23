@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
 
-require('./Config/configs') // DB connection
 require('dotenv').config() // env variables
+require('./Config/configs') // DB connection
 
 const port = process.env.PORT || 8888
+
 
 
 app.listen(port, () => {
