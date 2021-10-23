@@ -14,7 +14,7 @@ appRouter.route('/:amount').get( async(req,resp) => {
     
     if (games.length < num) {
     
-        res = res.concat(await fetchImages(num))
+        res = res.concat(await fetchImages(num - games.length))
     }
 
     return resp.json(res)
