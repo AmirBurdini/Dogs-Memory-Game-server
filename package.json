@@ -10,12 +10,10 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^10.0.0",
-    "download-file": "^0.1.5",
     "express": "^4.16.4",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "mongoose": "^6.0.11",
-    "morgan": "~1.9.1",
-    "nodejs-file-downloader": "^4.7.4"
+    "morgan": "~1.9.1"
   }
 }
